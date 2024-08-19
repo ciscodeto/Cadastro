@@ -12,6 +12,10 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/name"/>
         <EditText
             android:id="@+id/nameTxt"
             android:layout_width="match_parent"
@@ -19,6 +23,10 @@
             android:autofillHints=""
             android:hint="@string/name"
             android:inputType="text" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/phone"/>
         <EditText
             android:id="@+id/phoneTxt"
             android:layout_width="match_parent"
@@ -26,6 +34,10 @@
             android:autofillHints=""
             android:hint="@string/phone"
             android:inputType="phone" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/email"/>
         <EditText
             android:id="@+id/emailTxt"
             android:layout_width="match_parent"
@@ -43,6 +55,7 @@
             android:layout_height="wrap_content"
             android:text="@string/sexTxt"/>
         <RadioGroup
+            android:id="@+id/sexRG"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:tooltipText="@string/sexTxt"
@@ -58,6 +71,44 @@
                 android:text="@string/female">
             </RadioButton>
         </RadioGroup>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/city"/>
+        <EditText
+            android:id="@+id/cityTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:hint="@string/city"
+            android:inputType="text" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/UF"/>
+        <Spinner
+            android:id="@+id/planets_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/clearBtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/clear"/>
+
+            <Button
+                android:id="@+id/saveBtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/save"/>
+        </LinearLayout>
     </LinearLayout>
 
 
