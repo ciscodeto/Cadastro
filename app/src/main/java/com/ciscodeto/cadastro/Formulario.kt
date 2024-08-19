@@ -13,9 +13,9 @@ class Formulario {
         return "Nome: $name\n" +
                 "Telefone: $phoneNumber\n" +
                 "Email: $email\n" +
-                "Lista de emails: $isOnEmailList\n" +
-                "Sex: $sex" +
-                "City: $city" +
-                "State: $state"
+                "Está na lista de emails: $isOnEmailList\n" +
+                "Sexo: $sex" +
+                "Cidade: $city" +
+                "Estado: $state"
     }
 }
