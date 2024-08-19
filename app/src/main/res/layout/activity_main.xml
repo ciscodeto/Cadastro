@@ -118,6 +118,11 @@
                 android:text="@string/save"
                 android:backgroundTint="@color/primary" />
         </LinearLayout>
+        <TextView
+            android:id="@+id/verifyInputsTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
     </LinearLayout>
 
 
