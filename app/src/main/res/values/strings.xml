@@ -2,4 +2,9 @@
     <string name="app_name">Cadastro</string>
     <string name="phone">Telefone</string>
     <string name="name">Nome</string>
+    <string name="email">Email</string>
+    <string name="joinEmailListText">Ingressar na Lista de e-mails?</string>
+    <string name="sexTxt">Sexo</string>
+    <string name="male">Masculino</string>
+    <string name="female">Female</string>
 </resources>

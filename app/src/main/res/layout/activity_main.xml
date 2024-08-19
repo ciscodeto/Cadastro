@@ -13,19 +13,51 @@
         android:orientation="vertical">
 
         <EditText
-            android:id="@+id/name"
+            android:id="@+id/nameTxt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:autofillHints=""
             android:hint="@string/name"
-            />
+            android:inputType="text" />
         <EditText
-            android:id="@+id/phone"
+            android:id="@+id/phoneTxt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:autofillHints=""
             android:hint="@string/phone"
-            android:inputType="number"
-            />
-
+            android:inputType="phone" />
+        <EditText
+            android:id="@+id/emailTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:hint="@string/email"
+            android:inputType="textEmailAddress" />
+        <CheckBox
+            android:id="@+id/emailListChk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/joinEmailListText"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sexTxt"/>
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:tooltipText="@string/sexTxt"
+            android:orientation="horizontal">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/male">
+            </RadioButton>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/female">
+            </RadioButton>
+        </RadioGroup>
     </LinearLayout>
 
 
