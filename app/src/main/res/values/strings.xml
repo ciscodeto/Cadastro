@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Cadastro</string>
     <string name="phone">Telefone</string>
-    <string name="name">Nome</string>
+    <string name="name">Nome Completo</string>
     <string name="email">Email</string>
     <string name="joinEmailListText">Ingressar na Lista de e-mails?</string>
     <string name="sexTxt">Sexo</string>
